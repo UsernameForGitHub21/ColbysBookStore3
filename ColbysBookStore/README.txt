@@ -33,3 +33,18 @@ After a bit of debugging, my assignment now runs
 ***** EROOR *****
 moved models into the project, I have an error in Views/Shared/Error.cshtml that says the type or namespace VeiwErrorModel cannot be found
 in the slide show it shows them solving this by adding to the main project, project refences to the others but I have done this and I still have an error.
+
+December 5, 2022
+12:33
+Got help, fixed the error by changing both references to ErrorViewModel to ColbysBookStore.Models.ViewModels.ErrorViewModel, although I'm not sure
+if changing the reference in HomeContoller.cs was correct *****
+
+12:42
+added needed files to Utility project, added project references, couldn't add Models reference to DataAccess
+created an error
+
+12:51
+Added files to Areas/Customer and changed namespaces
+
+12:58
+added admin area and tested all code
