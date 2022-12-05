@@ -47,4 +47,8 @@ created an error
 Added files to Areas/Customer and changed namespaces
 
 12:58
-added admin area and tested all code
+added admin area and tested all code, finished part 1 and now on to part 2
+
+1:06
+added the new migration, the file's name is 20221205180510_AddDefaultIdentityMigration
+
