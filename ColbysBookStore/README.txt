@@ -30,7 +30,7 @@ Added all needed Frameworks
 After a bit of debugging, my assignment now runs
 
 7:12
-***** EROOR *****
+***** ERROR *****
 moved models into the project, I have an error in Views/Shared/Error.cshtml that says the type or namespace VeiwErrorModel cannot be found
 in the slide show it shows them solving this by adding to the main project, project refences to the others but I have done this and I still have an error.
 
@@ -69,3 +69,7 @@ There is also another error I am having however
 for now I will progress with out it and hope that it can be resolved withthe other issue as well but I have a feeling that it may produce more errors in the short future
 if this happens, I will have to stop progress until my code is functioning
 
+4:46
+Attempting to add the view for the next part produces an error, it states that the project must be able to build in order to procede
+and since I am unable to fix my errors for now there is nothing more I can do, I am hoping that some of my classmates will be able to help,
+if any show up to class today, if that fails then I will have to email my instructor and see if there is anytime for me to come in and ask questions.
