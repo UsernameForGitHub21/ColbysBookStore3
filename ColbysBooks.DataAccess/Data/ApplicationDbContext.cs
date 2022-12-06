@@ -13,6 +13,6 @@ namespace ColbysBookStore.DataAccess.Data
             : base(options)
         {
         }
-        public DbSet<Category> Categories { get; set; }
+       // public DbSet<Category> Categories { get; set; }
     }
 }

@@ -52,3 +52,20 @@ added admin area and tested all code, finished part 1 and now on to part 2
 1:06
 added the new migration, the file's name is 20221205180510_AddDefaultIdentityMigration
 
+December 6, 2022
+3:30
+beginning todays work
+
+3:45
+I have been looking over all of the files that I can think are related to the error I am having but I am
+unable to find where the issue is, for now I am going to comment out those lines and continue
+until I am able to ask a classmate
+
+4:27
+I have completed the interfaces and their related classes in the Repositories folder including Repository, CategoryRepository, SP_Call, and UnitOfWork
+I have the same error from before occuring on server of the files but I am hopeful that when the issue is resolved, it will resolve for eveywhere in the project
+There is also another error I am having however
+*****(end of 2.2) in startup.cs, line 38 - services.AddScoped<IUnitOfWork, UnitOfWork>(); - produces an error and im not sure why *****
+for now I will progress with out it and hope that it can be resolved withthe other issue as well but I have a feeling that it may produce more errors in the short future
+if this happens, I will have to stop progress until my code is functioning
+
