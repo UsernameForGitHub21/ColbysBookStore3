@@ -6,7 +6,7 @@ using System.Text;
 
 namespace ColbysBooks.DataAccess.Repository.IRepository
 {
-    public interface IRepository<T> where T class
+    public interface IRepository<T> where T :class
     {
         T Get(int id);
 

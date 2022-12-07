@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ColbysBooks.Models\ColbysBooks.Models.csproj" />
     <ProjectReference Include="..\ColbysBooks.Utility\ColbysBooks.Utility.csproj" />
   </ItemGroup>
 

@@ -1,4 +1,4 @@
-﻿//using ColbysBooks.Models;
+﻿using ColbysBooks.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -13,6 +13,6 @@ namespace ColbysBookStore.DataAccess.Data
             : base(options)
         {
         }
-       // public DbSet<Category> Categories { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }

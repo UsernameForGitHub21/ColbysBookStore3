@@ -73,3 +73,15 @@ if this happens, I will have to stop progress until my code is functioning
 Attempting to add the view for the next part produces an error, it states that the project must be able to build in order to procede
 and since I am unable to fix my errors for now there is nothing more I can do, I am hoping that some of my classmates will be able to help,
 if any show up to class today, if that fails then I will have to email my instructor and see if there is anytime for me to come in and ask questions.
+
+December 7, 2022
+5:08
+somehow I managed to fix my error, I believe I forgot to specify the scope of some of my files making some of them inaccessable by the rest of my project but now my code runs
+
+5:31
+a lot of testing, I changed a few files and I have just added category.js
+
+6:02
+Added buttons for editing and delting cateogries. I noticed that some of the slides show pages that I am unable to get to using my assignemnt, I believe my navigation is broken
+all I can do is continue and hope to get help with it before handing it in, its too late to restart again.
+
