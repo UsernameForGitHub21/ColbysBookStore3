@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BulkyBook.Areas.Admin.Controllers
+namespace ColbysBooks.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class CoverTypeController : Controller
