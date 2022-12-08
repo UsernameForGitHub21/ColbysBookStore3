@@ -1,4 +1,5 @@
-﻿using ColbysBooks.DataAccess.Repository.IRepository;
+﻿using BulkyBook.DataAccess.Repository;
+using ColbysBooks.DataAccess.Repository.IRepository;
 using ColbysBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
@@ -16,10 +17,15 @@ namespace ColbysBooks.DataAccess.Repository
         {
             _db = db;
             Category = new CategoryRepository(_db);
+            CoverType = new CoverTypeRepository(_db);
+            Product = new ProductRepository(_db);
             SP_Call = new SP_Call(_db);
         }
 
         public ICategoryRepository Category { get; private set; }
+        public ICoverTypeRepository CoverType { get; private set; }
+        public IProductRepository Product { get; private set; }
+
         public ISP_Call SP_Call { get; private set; }
 
         public void Dispose()

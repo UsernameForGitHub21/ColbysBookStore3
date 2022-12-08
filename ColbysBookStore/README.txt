@@ -85,3 +85,26 @@ a lot of testing, I changed a few files and I have just added category.js
 Added buttons for editing and delting cateogries. I noticed that some of the slides show pages that I am unable to get to using my assignemnt, I believe my navigation is broken
 all I can do is continue and hope to get help with it before handing it in, its too late to restart again.
 
+December 8, 2022
+10:13
+i plan on finishing part 3 and doing the final debugging of my assignment today, hopefulyl everything goes smoothly
+
+10:57
+added CoverType CRUD as well as the CoverType class, interface, and made changes to other files to allow for them
+
+1:50
+had to do some other things but I am back and I have just added the Product class as well made the changes to it
+
+1:57
+I've just added the migration, time stamp is 20221208185448_addProductToDb
+
+
+
+2:01
+in Server Object Explorer, Products table, I hae changed the contents to match what is shown in
+the slideshow
+**********
+
+2:29
+I've added and implemented the products interface and classes
+
