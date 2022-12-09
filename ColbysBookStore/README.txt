@@ -1,6 +1,6 @@
 Colby Morgan Assignment 2
 
-December 1, 2022
+2022/12/1
 6:20
 I am attempting to rebuild my assignment after an error that occured again
 
@@ -34,10 +34,10 @@ After a bit of debugging, my assignment now runs
 moved models into the project, I have an error in Views/Shared/Error.cshtml that says the type or namespace VeiwErrorModel cannot be found
 in the slide show it shows them solving this by adding to the main project, project refences to the others but I have done this and I still have an error.
 
-December 5, 2022
+2022/12/5
 12:33
-Got help, fixed the error by changing both references to ErrorViewModel to ColbysBookStore.Models.ViewModels.ErrorViewModel, although I'm not sure
-if changing the reference in HomeContoller.cs was correct *****
+Got help, fixed the error by changing both references of ErrorViewModel to ColbysBookStore.Models.ViewModels.ErrorViewModel, although I'm not sure
+if changing the reference in HomeController.cs was correct *****
 
 12:42
 added needed files to Utility project, added project references, couldn't add Models reference to DataAccess
@@ -52,7 +52,7 @@ added admin area and tested all code, finished part 1 and now on to part 2
 1:06
 added the new migration, the file's name is 20221205180510_AddDefaultIdentityMigration
 
-December 6, 2022
+2022/12/6
 3:30
 beginning todays work
 
@@ -64,17 +64,12 @@ until I am able to ask a classmate
 4:27
 I have completed the interfaces and their related classes in the Repositories folder including Repository, CategoryRepository, SP_Call, and UnitOfWork
 I have the same error from before occuring on server of the files but I am hopeful that when the issue is resolved, it will resolve for eveywhere in the project
-There is also another error I am having however
-*****(end of 2.2) in startup.cs, line 38 - services.AddScoped<IUnitOfWork, UnitOfWork>(); - produces an error and im not sure why *****
-for now I will progress with out it and hope that it can be resolved withthe other issue as well but I have a feeling that it may produce more errors in the short future
-if this happens, I will have to stop progress until my code is functioning
 
 4:46
 Attempting to add the view for the next part produces an error, it states that the project must be able to build in order to procede
-and since I am unable to fix my errors for now there is nothing more I can do, I am hoping that some of my classmates will be able to help,
-if any show up to class today, if that fails then I will have to email my instructor and see if there is anytime for me to come in and ask questions.
+and since I am unable to fix my errors for now there is nothing more I can do for now.
 
-December 7, 2022
+2022/12/7
 5:08
 somehow I managed to fix my error, I believe I forgot to specify the scope of some of my files making some of them inaccessable by the rest of my project but now my code runs
 
@@ -85,7 +80,7 @@ a lot of testing, I changed a few files and I have just added category.js
 Added buttons for editing and delting cateogries. I noticed that some of the slides show pages that I am unable to get to using my assignemnt, I believe my navigation is broken
 all I can do is continue and hope to get help with it before handing it in, its too late to restart again.
 
-December 8, 2022
+2022/12/8
 10:13
 i plan on finishing part 3 and doing the final debugging of my assignment today, hopefulyl everything goes smoothly
 
@@ -108,3 +103,8 @@ the slideshow
 2:29
 I've added and implemented the products interface and classes
 
+2022/12/9
+1:33
+i am having an error on line 37 of my Startup.cs- Severity	Code	Description	Project	File	Line	Suppression State
+Error	CS0311	The type 'ColbysBooks.DataAccess.Repository.UnitOfWork' cannot be used as type parameter 'TImplementation' in the generic type or method 'ServiceCollectionServiceExtensions.AddScoped<TService, TImplementation>(IServiceCollection)'. There is no implicit reference conversion from 'ColbysBooks.DataAccess.Repository.UnitOfWork' to 'ColbysBooks.DataAccess.Repository.IRepository.IUnitOfWork'.	ColbysBookStore	C:\Users\W0764405\Source\Repos\ColbysBookStore3\ColbysBookStore\Startup.cs	37	Active
+- I attempted to add the project references to the .Models project but this did not resolve my issue.

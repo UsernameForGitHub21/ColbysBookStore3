@@ -28,10 +28,8 @@ namespace ColbysBooks.Areas.Admin.Controllers
             Category category = new Category();
             if (id == null)
             {
-                // this is for create
                 return View(category);
             }
-            // this is for edit
             category = _unitOfWork.Category.Get(id.GetValueOrDefault());
             if (category == null)
             {
